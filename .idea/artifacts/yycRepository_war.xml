@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yycRepository:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yycRepository</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yycRepository-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yycRepository:war exploded" />
+    </root>
+  </artifact>
+</component>
